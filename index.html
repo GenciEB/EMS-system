@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Employee Management System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Management System</h1>
+
+    <section class="add-employee">
+      <h2>Add Employee</h2>
+      <input type="text" id="nameInput" placeholder="Employee Name" />
+      <input type="number" id="salaryInput" placeholder="Base Salary" />
+      <button id="addBtn">Add Employee</button>
+    </section>
+
+    <section class="employee-list">
+      <h2>Employees</h2>
+      <table id="employeeTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Base Salary</th>
+            <th>Bonus</th>
+            <th>Total Salary</th>
+            <th>Check In</th>
+            <th>Check Out</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Employees show here -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
